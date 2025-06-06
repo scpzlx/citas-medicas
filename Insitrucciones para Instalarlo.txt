@@ -1,0 +1,15 @@
+1-Instalar Node.js (https://nodejs.org/)
+
+2-Instalar MongoDB local (https://www.mongodb.com/try/download/community)
+O crear una base de datos en MongoDB Atlas (https://www.mongodb.com/cloud/atlas)
+
+3-En la carpeta backend/, crear un archivo .env con las siguientes variables (Las variables son de ejmplo):
+MONGODB_URI=mongodb://localhost:27017/citasdb
+JWT_SECRET=loquesea123
+EMAIL_USER=micorreo@gmail.com
+EMAIL_PASS=clave-de-aplicacion
+
+4- Poner en terminal:
+cd backend
+npm install
+node index.js
